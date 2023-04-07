@@ -1,0 +1,6 @@
+to load data from local in sql- 
+1)SET GLOBAL local_infile=1;      //enable the load local data sql statement
+2)quit
+3)mysql --local_infile=1 -u root -pABC menagerie
+ABC==password
+menagerie==database name
